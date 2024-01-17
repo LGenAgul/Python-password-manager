@@ -99,8 +99,8 @@ def main():
     passwords = {"test":"test"}
 
     pm = PasswordManager()
-    key_path = "D:\\python\\password manager\\keys\\key.key"
-    file_path = "D:\\python\\password manager\\passwords\\passwords.txt"
+    key_path = "keys\\key.key"
+    file_path = "passwords\\passwords.txt"
 
     # Create directories if they don't exist
     os.makedirs(os.path.dirname(key_path), exist_ok=True)
